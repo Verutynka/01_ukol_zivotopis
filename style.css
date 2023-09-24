@@ -1,0 +1,149 @@
+body {
+    color: #282425;
+    background-color: white;
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+
+.foto_omne {
+    width: 200px;
+    border-top: 15px solid #f7dfce;
+    border-right: 15px solid #f7dfce;
+    border-bottom: 60px solid #f7dfce;
+    border-left: 15px solid #f7dfce;
+    float: left;
+    margin: 0 100px 0 30px;
+}
+
+
+h2,
+h3 {
+    color: #cc91ef;
+}
+
+
+h1 {
+    color: #282425;
+    font-size: 60px;
+    text-align: left;
+    margin: 0;
+    text-shadow: 1px 3px 6px rgba(0, 0, 0, 0.7);
+}
+
+
+.hlavicka h2 {
+    color: #282425;
+    text-align: left;
+    margin: 0;
+    padding-right: 0;
+    border-bottom: none;
+    text-shadow: 1px 3px 6px rgba(0, 0, 0, 0.7);
+}
+
+
+h2 {
+    font-size: 48px;
+    text-align: left;
+    margin-top: 0;
+    padding-right: 300px;
+    border-bottom: 2px dotted #cc91ef;
+}
+
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+
+h4 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+
+a {
+    font-style: italic;
+}
+
+
+p {
+    margin-top: 0;
+}
+
+
+.omne {
+    clear: left;
+}
+
+
+.paticka {
+    background-color: #f7dfce;
+    color: #cc91ef;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+.paticka p {
+    margin-bottom: 0;
+}
+
+
+td {
+    text-align: left;
+}
+
+
+.uroven {
+    text-align: right;
+    padding-left: 80px;
+}
+
+
+section {
+    padding: 50px 30px;
+    margin: 1px 20%;
+    overflow: auto;
+    border-left: 2px dotted #cc91ef;
+}
+
+
+.hlavicka {
+    padding: 50px 30px;
+    background-image: url(obrazky/hlavicka.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.menu {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    
+}
+
+
+.menu li {
+    display: inline-block;
+}
+
+
+.menu a {
+    color: #282425;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 30px;
+}
+
+
+.menu a:hover,
+.menu a:focus,
+.menu a:active {
+    background-color: #cc91ef;
+}
